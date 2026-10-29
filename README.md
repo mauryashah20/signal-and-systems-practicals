@@ -17,6 +17,7 @@ A comprehensive repository containing MATLAB implementations for **Signals and S
 | **[Practical 7](practical_7.m)** | **Fourier Series Waveform Synthesis** | Harmonic synthesis and reconstruction of Square, Sawtooth, and Triangular periodic waves. |
 | **[Practical 8](practical_8.m)** | **Time-Domain Convolution vs. FFT Multiplication** | Verification of convolution property of Fourier Transform ($x_1[n] * x_2[n] \leftrightarrow X_1(e^{j\omega}) \cdot X_2(e^{j\omega})$) using FFT/IFFT. |
 | **[Practical 9](practical_9.m)** | **Auto-Correlation & Cross-Correlation** | Energy/Power signal correlation, periodicity detection, and Time Delay Estimation (TDE) via cross-correlation peaks. |
+| **[Practical 10](practical_10.m)** | **LTI System Convolution, Z-Domain & Deconvolution** | Direct linear convolution, Z-transform inverse response, matrix deconvolution (inverse filter design), and step response steady-state analysis. |
 
 ---
 
@@ -42,3 +43,4 @@ A comprehensive repository containing MATLAB implementations for **Signals and S
 
 - MATLAB (R2018b or later recommended) or GNU Octave
 - Signal Processing Toolbox (optional, scripts contain standalone fallback implementations)
+
